@@ -136,6 +136,7 @@ class Rodal extends React.Component {
         return (
             <div
                 style={style}
+                id={'rodal'}
                 className={"rodal rodal-fade-" + state.animationType + ' ' + props.className}
                 onAnimationEnd={this.animationEnd}
                 tabIndex="-1"
